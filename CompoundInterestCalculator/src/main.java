@@ -28,7 +28,7 @@ public class main {
 
         amount = principal * Math.pow(1 + (rate / timesCompounded), years * timesCompounded);
 
-        System.out.printf("The amount after years is: $%,.2f", amount );
+        System.out.printf("The amount after %d years is: $%,.2f", years, amount );
 
         scanner.close();
     }
